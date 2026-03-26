@@ -38,7 +38,8 @@ echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward 1
 
  nano /etc/sysctl.conf # добавлена 1 в файл для автозагрузки
 ```
-    Были настроены и сохранены правила iptables
+Были настроены и сохранены правила iptables
+    
 ```shell
 sudo apt-get install iptables-persistent
 sudo iptables-save > /etc/iptables/rules.v4
